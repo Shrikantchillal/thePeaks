@@ -1,0 +1,11 @@
+@import './variables';
+
+.footer-wrapper {
+    width: 100%;
+    background-color: $blue;
+    height: 240px;
+}
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+}

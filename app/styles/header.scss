@@ -1,0 +1,57 @@
+@import './variables';
+
+.header-wrapper {
+    width: 100%;
+    background-color: $blue;
+    
+}
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 124px;
+    justify-content: space-between;
+}
+.logo {
+    align-self: center;
+}
+.search {
+    align-self: end;
+    border-bottom:2px solid #fff;
+    height: 50px;
+    display: flex;
+    background-color: #2153A3;
+}
+.searchIcon {
+    background: "url('../assets/Logo_White.png')";
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    /* background-color: none; */
+}
+.searchBox {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 14px 0 0 20px;
+    height: 32px;
+    width: 190px;
+    border-radius: 0;
+    width: 0;
+    transition: width 1s;
+}
+.searchOpen {
+    width: 200px;
+}
+.searchBox, .searchBox::placeholder { 
+    color: rgb(255, 255, 255, 0.4);
+}
+.searchBox:focus-visible {
+    outline: none;
+}

@@ -1,0 +1,88 @@
+@import './variables';
+@import './common';
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Tahoma, Times New Roman, Segoe, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: $black;
+    background-color: $white;
+}
+.main-wrapper {
+    width: 100%;
+}
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    min-height: 200px;
+    padding-top: 42px;
+}
+.content-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 48px;
+    .headRightSection {
+        display: flex;
+        gap: 20px;
+    }
+}
+.bookmark-btn {
+    background-color: $blue;
+    border-radius: 4px;
+    padding: 6px 12px 6px 34px;
+    color: $white;
+    text-transform: capitalize;
+    align-self: end;
+    cursor: pointer;
+}
+.topStories-section {
+    .first-row, .second-row {
+        display: flex;
+        gap: 30px;
+    }
+}
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    min-height: 200px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    img {
+        align-self: center;
+    }
+}
+.bigSizeNewsBox {
+    width: 540px;
+    height: 420px;
+    background-color: #000;
+}
+.smallSizeNewsBox {
+    width: 252px;
+    height: 254px;
+    background-color: #f00;
+}
+.newsTitleBox {
+    width: 254px;
+    height: 136px;
+    background-color: #ccc;
+}
+.columnBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sports-section {
+    padding-top: 48px;;
+    h2 {
+        padding-bottom: 25px;
+    }
+}
